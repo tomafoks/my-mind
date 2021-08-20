@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-20T19:58:44.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="YaNonICwh_nDeQk5RG2D" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-20T21:53:49.496Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="lmtMTRGNbUTgcUWWCxlh" version="14.9.8" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="2507" dy="1406" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -124,7 +124,7 @@
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1644" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.004;entryY=0.071;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=14;" parent="1" source="dYOBeLBx3Amch_ermyEQ-1643" target="dYOBeLBx3Amch_ermyEQ-1635" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dYOBeLBx3Amch_ermyEQ-1643" value="Для данного отчета реализовать фильтрацию по дате регистрации, фильтрацию по стоимости, статусу перемещения, а также поиск по полному наименованию, серийному номеру и инвентарному номеру." style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;comic=0;fontFamily=Helvetica;fontSize=14;strokeWidth=2;fillColor=#f8cecc;align=center;verticalAlign=middle;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="dYOBeLBx3Amch_ermyEQ-1643" value="Для данного отчета реализовать фильтрацию по дате регистрации, фильтрацию по стоимости, статусу перемещения, а также поиск по полному наименованию, серийному номеру и инвентарному номеру." style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;comic=0;fontFamily=Helvetica;fontSize=14;strokeWidth=2;fillColor=#f8cecc;align=center;verticalAlign=middle;strokeColor=#b85450;arcSize=27;" parent="1" vertex="1">
           <mxGeometry x="1238" y="252" width="344" height="91" as="geometry" />
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1646" value="данные для заполнения" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;glass=0;shadow=0;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;comic=0;treeMoving=0;treeFolding=0;spacing=2;verticalAlign=middle;align=center;fontFamily=Helvetica;" parent="1" vertex="1">
@@ -215,7 +215,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1685" value="&lt;font color=&quot;#3d474d&quot; face=&quot;avenir, avenir next, segoe ui, helvetica, arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;Уведомления должны отправляться асинхронно. Саму отправку можно не делать, а данные уведомления записать в лог.&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;comic=0;fontFamily=Helvetica;fontSize=16;strokeWidth=2;align=center;verticalAlign=middle;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
-          <mxGeometry x="1846" y="54" width="377" height="231" as="geometry" />
+          <mxGeometry x="1667" y="15" width="377" height="231" as="geometry" />
+        </mxCell>
+        <mxCell id="jSiPEcOqjLlTZkOQV3_P-3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Для закрепления и лучшего понимания пройдёмся ещё раз по коду: &lt;br&gt;1) В контроллере ReportController вызываем метод filter и передаём в него объект EquipmentFilters &lt;br&gt;&lt;br&gt;2) В модели в scopeFilters вызываем метод apply переданного объекта, которому в свою очередь передаём строитель запросов Builder &lt;br&gt;&lt;br&gt;3) Поскольку в классе-родителе QueryFilter в контсруктор внедрён Request, у нас будет доступ ко всем данным запроса. Метод apply перебирает в цикле все параметры, и на каждом из них вызывает одноименный метод (если такой существует), передавая ему в качестве аргумента значение. Если в адресной строке, у нас было x=y, то будет вызван метод x(y). &lt;br&gt;&lt;br&gt;4) Каждый из вызванных методов, модифицирует запрос, добавляя к нему соответствующие условия &lt;br&gt;&lt;br&gt;5) Метод apply возвращает модифицированный запрос в scopeFilter модели, который, в свою очередь возвращает запрос в контроллер &lt;br&gt;&lt;br&gt;6) В контроллере к запросу добавляется get() и вуаля - мы получаем отфильтрованные данные! Т.е., если адресная строка браузера содержит: products?categories=5&amp;amp;brands=3,7,10&amp;amp;price=asc&amp;amp;search=phone, то модифицированный запрос будет выглядеть так:&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7EA6E0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="448" width="1136" height="451" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
