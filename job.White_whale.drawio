@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-20T10:52:55.383Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="TJdw1taLJLsNKRqBGV5X" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-20T10:59:17.980Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="-MgtH9PhblN-4eqM6cZ-" version="14.9.8" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="763" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -28,17 +28,17 @@
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1566" value="управляющий" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=2;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="720" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dYOBeLBx3Amch_ermyEQ-1576" value="данные для заполнения" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;glass=0;shadow=0;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="940" y="40" width="170" height="110" as="geometry" />
+        <mxCell id="dYOBeLBx3Amch_ermyEQ-1576" value="данные для заполнения" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;glass=0;shadow=0;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;comic=0;treeMoving=0;treeFolding=0;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="940" y="40" width="190" height="114" as="geometry" />
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1577" value="Полное наименование" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dYOBeLBx3Amch_ermyEQ-1576">
-          <mxGeometry y="26" width="170" height="26" as="geometry" />
+          <mxGeometry y="30" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1578" value="Стоимость" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dYOBeLBx3Amch_ermyEQ-1576">
-          <mxGeometry y="52" width="170" height="26" as="geometry" />
+          <mxGeometry y="56" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1579" value="Серийный номер" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dYOBeLBx3Amch_ermyEQ-1576">
-          <mxGeometry y="78" width="170" height="32" as="geometry" />
+          <mxGeometry y="82" width="190" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
