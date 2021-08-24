@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-24T18:34:51.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="XrryOFsbULMpb-T4uQuM" version="14.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-24T18:36:10.713Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="yFzWlkODtzT_kc8VQLBs" version="14.9.9" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1262" dy="892" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -145,7 +145,7 @@
           <mxGeometry x="1281" y="475" width="231" height="83" as="geometry" />
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1654" value="отчет" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;glass=0;shadow=0;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;comic=0;treeMoving=0;treeFolding=0;spacing=2;verticalAlign=middle;align=center;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="968" y="848" width="190" height="210" as="geometry" />
+          <mxGeometry x="968" y="822" width="190" height="210" as="geometry" />
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1655" value="Полное наименование" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="dYOBeLBx3Amch_ermyEQ-1654" vertex="1">
           <mxGeometry y="30" width="190" height="26" as="geometry" />
@@ -234,7 +234,7 @@
           <mxGeometry x="1853" y="433" width="1225" height="482" as="geometry" />
         </mxCell>
         <mxCell id="5Uzj15upSsl0uFou40D1-1" value="список  нового зарегистрированного оборудования" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;glass=0;shadow=0;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;comic=0;treeMoving=0;treeFolding=0;spacing=2;verticalAlign=middle;align=center;fontFamily=Helvetica;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="966" y="634" width="234" height="193" as="geometry">
+          <mxGeometry x="968" y="604" width="234" height="193" as="geometry">
             <mxRectangle x="910" y="318" width="316" height="45" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
