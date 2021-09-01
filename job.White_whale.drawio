@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-24T18:36:10.713Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="yFzWlkODtzT_kc8VQLBs" version="14.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-01T18:35:42.203Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="cfH7lf7BGCrSUyH7z0_T" version="15.0.4" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1262" dy="892" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1631" dy="1103" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -252,6 +252,15 @@
         </mxCell>
         <mxCell id="5Uzj15upSsl0uFou40D1-6" value="Дата регистрации" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5Uzj15upSsl0uFou40D1-1" vertex="1">
           <mxGeometry y="161" width="234" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="fNgwi0u0sl8mcDas2pCh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fNgwi0u0sl8mcDas2pCh-1" target="dYOBeLBx3Amch_ermyEQ-1619">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fNgwi0u0sl8mcDas2pCh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fNgwi0u0sl8mcDas2pCh-1" target="dYOBeLBx3Amch_ermyEQ-1652">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fNgwi0u0sl8mcDas2pCh-1" value="&lt;font size=&quot;3&quot;&gt;для работы нужно запустить обоработчик очереди (&lt;/font&gt;&lt;span style=&quot;background-color: rgb(249 , 250 , 252) ; font-family: &amp;#34;roboto mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; font-style: inherit ; font-weight: inherit ; color: rgb(71 , 86 , 105)&quot;&gt;queue:work&lt;/span&gt;&lt;font size=&quot;3&quot;&gt;)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1713" y="-87" width="461" height="66" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
