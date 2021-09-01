@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-01T21:39:50.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="PQhpwPJazCZbSV6LVjW3" version="15.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-01T21:45:46.694Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="GhmiJSzuAFAu2d2r6IpT" version="15.0.4" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1974" dy="1103" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1631" dy="1103" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,7 +76,7 @@
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1566" value="управляющий" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=2;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="757" y="527" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dYOBeLBx3Amch_ermyEQ-1576" value="данные для заполнения" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;glass=0;shadow=0;rounded=1;fillColor=#7EA6E0;strokeColor=#d6b656;comic=0;treeMoving=0;treeFolding=0;spacing=2;verticalAlign=middle;align=center;fontFamily=Helvetica;" parent="1" vertex="1" collapsed="1">
+        <mxCell id="dYOBeLBx3Amch_ermyEQ-1576" value="данные для заполнения" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;glass=0;shadow=0;rounded=1;fillColor=#0050ef;strokeColor=#001DBC;comic=0;treeMoving=0;treeFolding=0;spacing=2;verticalAlign=middle;align=center;fontFamily=Helvetica;fontColor=#ffffff;" parent="1" vertex="1" collapsed="1">
           <mxGeometry x="992" y="-263" width="166" height="30" as="geometry">
             <mxRectangle x="992" y="-263" width="190" height="146" as="alternateBounds" />
           </mxGeometry>
@@ -99,9 +99,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1619" value="&lt;p&gt;&lt;span style=&quot;font-size: 14.3px&quot;&gt;При событии регистрации должно отправляться уведомление управляющим.&lt;/span&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;comic=0;fontFamily=Helvetica;strokeWidth=2;align=center;verticalAlign=middle;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
-          <mxGeometry x="1230" y="-177" width="208" height="60" as="geometry" />
+          <mxGeometry x="1230" y="-174" width="208" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dYOBeLBx3Amch_ermyEQ-1623" value="список  нового зарегистрированного оборудования" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;glass=0;shadow=0;rounded=1;fillColor=#7EA6E0;strokeColor=#d6b656;comic=0;treeMoving=0;treeFolding=0;spacing=2;verticalAlign=middle;align=center;fontFamily=Helvetica;whiteSpace=wrap;" parent="1" vertex="1" collapsed="1">
+        <mxCell id="dYOBeLBx3Amch_ermyEQ-1623" value="список  нового зарегистрированного оборудования" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;glass=0;shadow=0;rounded=1;fillColor=#0050ef;strokeColor=#001DBC;comic=0;treeMoving=0;treeFolding=0;spacing=2;verticalAlign=middle;align=center;fontFamily=Helvetica;whiteSpace=wrap;fontColor=#ffffff;" parent="1" vertex="1" collapsed="1">
           <mxGeometry x="992" y="-68" width="316" height="45" as="geometry">
             <mxRectangle x="992" y="-68" width="234" height="193" as="alternateBounds" />
           </mxGeometry>
@@ -130,9 +130,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1643" value="Для данного отчета реализовать фильтрацию по дате регистрации, фильтрацию по стоимости, статусу перемещения, а также поиск по полному наименованию, серийному номеру и инвентарному номеру." style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;comic=0;fontFamily=Helvetica;fontSize=14;strokeWidth=2;fillColor=#f8cecc;align=center;verticalAlign=middle;strokeColor=#b85450;arcSize=27;" parent="1" vertex="1">
-          <mxGeometry x="1238" y="252" width="344" height="91" as="geometry" />
+          <mxGeometry x="1238" y="255" width="344" height="91" as="geometry" />
         </mxCell>
-        <mxCell id="dYOBeLBx3Amch_ermyEQ-1646" value="данные для заполнения" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;glass=0;shadow=0;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;comic=0;treeMoving=0;treeFolding=0;spacing=2;verticalAlign=middle;align=center;fontFamily=Helvetica;" parent="1" vertex="1">
+        <mxCell id="dYOBeLBx3Amch_ermyEQ-1646" value="данные для заполнения" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;glass=0;shadow=0;rounded=1;fillColor=#0050ef;strokeColor=#001DBC;comic=0;treeMoving=0;treeFolding=0;spacing=2;verticalAlign=middle;align=center;fontFamily=Helvetica;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="968" y="529" width="190" height="56" as="geometry" />
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1647" value="Склад" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="dYOBeLBx3Amch_ermyEQ-1646" vertex="1">
@@ -222,7 +222,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1685" value="&lt;font color=&quot;#3d474d&quot; face=&quot;avenir, avenir next, segoe ui, helvetica, arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;Уведомления должны отправляться асинхронно. Саму отправку можно не делать, а данные уведомления записать в лог.&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;comic=0;fontFamily=Helvetica;fontSize=16;strokeWidth=2;align=center;verticalAlign=middle;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
-          <mxGeometry x="1667" y="15" width="377" height="231" as="geometry" />
+          <mxGeometry x="1667" y="18" width="377" height="231" as="geometry" />
         </mxCell>
         <mxCell id="jSiPEcOqjLlTZkOQV3_P-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=1;" parent="1" source="jSiPEcOqjLlTZkOQV3_P-3" target="dYOBeLBx3Amch_ermyEQ-1643" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -233,7 +233,7 @@
         <mxCell id="jSiPEcOqjLlTZkOQV3_P-3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Для закрепления и лучшего понимания пройдёмся ещё раз по коду: &lt;br&gt;&lt;br&gt;1) В контроллере ReportController вызываем метод filter и передаём в него объект EquipmentFilters &lt;br&gt;&lt;br&gt;2) В модели в scopeFilters вызываем метод apply переданного объекта, которому в свою очередь передаём строитель запросов Builder &lt;br&gt;&lt;br&gt;3) Поскольку в классе-родителе QueryFilter в контсруктор внедрён Request, у нас будет доступ ко всем данным запроса. Метод apply перебирает в цикле все параметры, и на каждом из них вызывает одноименный метод (если такой существует), передавая ему в качестве аргумента значение. Если в адресной строке, у нас было x=y, то будет вызван метод x(y). &lt;br&gt;&lt;br&gt;4) Каждый из вызванных методов, модифицирует запрос, добавляя к нему соответствующие условия &lt;br&gt;&lt;br&gt;5) Метод apply возвращает модифицированный запрос в scopeFilter модели, который, в свою очередь возвращает запрос в контроллер &lt;br&gt;&lt;br&gt;6) В контроллере к запросу добавляется get() и вуаля - мы получаем отфильтрованные данные! &lt;br&gt;&lt;br&gt;Т.е., если адресная строка браузера содержит: equipment?categories=5&amp;amp;brands=3,7,10&amp;amp;price=asc&amp;amp;search=phone, то модифицированный запрос будет выглядеть так:&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#bac8d3;strokeColor=#23445d;arcSize=12;" parent="1" vertex="1">
           <mxGeometry x="1853" y="433" width="1225" height="482" as="geometry" />
         </mxCell>
-        <mxCell id="5Uzj15upSsl0uFou40D1-1" value="список  нового зарегистрированного оборудования" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;glass=0;shadow=0;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;comic=0;treeMoving=0;treeFolding=0;spacing=2;verticalAlign=middle;align=center;fontFamily=Helvetica;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="5Uzj15upSsl0uFou40D1-1" value="список  нового зарегистрированного оборудования" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;glass=0;shadow=0;rounded=1;fillColor=#0050ef;strokeColor=#001DBC;comic=0;treeMoving=0;treeFolding=0;spacing=2;verticalAlign=middle;align=center;fontFamily=Helvetica;whiteSpace=wrap;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="968" y="604" width="234" height="193" as="geometry">
             <mxRectangle x="910" y="318" width="316" height="45" as="alternateBounds" />
           </mxGeometry>
@@ -260,7 +260,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fNgwi0u0sl8mcDas2pCh-1" value="&lt;font size=&quot;3&quot;&gt;для работы нужно запустить обоработчик очереди (&lt;/font&gt;&lt;span style=&quot;background-color: rgb(249 , 250 , 252) ; font-family: &amp;#34;roboto mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; font-style: inherit ; font-weight: inherit ; color: rgb(71 , 86 , 105)&quot;&gt;queue:work&lt;/span&gt;&lt;font size=&quot;3&quot;&gt;)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1713" y="-87" width="461" height="66" as="geometry" />
+          <mxGeometry x="1713" y="-84" width="461" height="66" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
