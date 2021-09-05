@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-01T23:09:41.699Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="9UPQCNJPG_bTQJdw9TsC" version="15.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-05T20:00:21.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="xOWAQb3P1MRVv7RzAF8P" version="15.0.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1714" dy="926" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1262" dy="926" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -146,26 +146,28 @@
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1652" value="При событии перемещения должно приходить уведомление поставщику, который зарегистрировал оборудование." style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;comic=0;fontFamily=Helvetica;fontSize=14;strokeWidth=2;fillColor=#f8cecc;align=center;verticalAlign=middle;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1281" y="475" width="231" height="83" as="geometry" />
         </mxCell>
-        <mxCell id="dYOBeLBx3Amch_ermyEQ-1654" value="отчет" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;glass=0;shadow=0;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;comic=0;treeMoving=0;treeFolding=0;spacing=2;verticalAlign=middle;align=center;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="968" y="822" width="190" height="210" as="geometry" />
+        <mxCell id="dYOBeLBx3Amch_ermyEQ-1654" value="отчет" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;glass=0;shadow=0;rounded=1;fillColor=#0050ef;strokeColor=#001DBC;comic=0;treeMoving=0;treeFolding=0;spacing=2;verticalAlign=middle;align=center;fontFamily=Helvetica;fontColor=#ffffff;" parent="1" vertex="1" collapsed="1">
+          <mxGeometry x="968" y="822" width="61" height="30" as="geometry">
+            <mxRectangle x="968" y="822" width="190" height="210" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1655" value="Полное наименование" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="dYOBeLBx3Amch_ermyEQ-1654" vertex="1">
-          <mxGeometry y="30" width="190" height="26" as="geometry" />
+          <mxGeometry y="30" width="61" height="26" as="geometry" />
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1656" value="Стоимость" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="dYOBeLBx3Amch_ermyEQ-1654" vertex="1">
-          <mxGeometry y="56" width="190" height="26" as="geometry" />
+          <mxGeometry y="56" width="61" height="26" as="geometry" />
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1657" value="Серийный номер" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="dYOBeLBx3Amch_ermyEQ-1654" vertex="1">
-          <mxGeometry y="82" width="190" height="32" as="geometry" />
+          <mxGeometry y="82" width="61" height="32" as="geometry" />
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1658" value="Инвентарный номер" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="dYOBeLBx3Amch_ermyEQ-1654" vertex="1">
-          <mxGeometry y="114" width="190" height="32" as="geometry" />
+          <mxGeometry y="114" width="61" height="32" as="geometry" />
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1659" value="Дата регистрации" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="dYOBeLBx3Amch_ermyEQ-1654" vertex="1">
-          <mxGeometry y="146" width="190" height="32" as="geometry" />
+          <mxGeometry y="146" width="61" height="32" as="geometry" />
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1660" value="Статус перемещения" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="dYOBeLBx3Amch_ermyEQ-1654" vertex="1">
-          <mxGeometry y="178" width="190" height="32" as="geometry" />
+          <mxGeometry y="178" width="61" height="32" as="geometry" />
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1663" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.963;entryY=-0.094;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=14;" parent="1" source="dYOBeLBx3Amch_ermyEQ-1662" target="dYOBeLBx3Amch_ermyEQ-1658" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -255,13 +257,13 @@
         <mxCell id="5Uzj15upSsl0uFou40D1-6" value="Дата регистрации" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5Uzj15upSsl0uFou40D1-1" vertex="1">
           <mxGeometry y="161" width="316" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="fNgwi0u0sl8mcDas2pCh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="fNgwi0u0sl8mcDas2pCh-1" target="dYOBeLBx3Amch_ermyEQ-1619">
+        <mxCell id="fNgwi0u0sl8mcDas2pCh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="fNgwi0u0sl8mcDas2pCh-1" target="dYOBeLBx3Amch_ermyEQ-1619" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fNgwi0u0sl8mcDas2pCh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="fNgwi0u0sl8mcDas2pCh-1" target="dYOBeLBx3Amch_ermyEQ-1652">
+        <mxCell id="fNgwi0u0sl8mcDas2pCh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;curved=1;" parent="1" source="fNgwi0u0sl8mcDas2pCh-1" target="dYOBeLBx3Amch_ermyEQ-1652" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fNgwi0u0sl8mcDas2pCh-1" value="&lt;font size=&quot;3&quot;&gt;для работы нужно запустить обоработчик очереди (&lt;/font&gt;&lt;span style=&quot;background-color: rgb(249 , 250 , 252) ; font-family: &amp;#34;roboto mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; font-style: inherit ; font-weight: inherit ; color: rgb(71 , 86 , 105)&quot;&gt;queue:work&lt;/span&gt;&lt;font size=&quot;3&quot;&gt;)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="fNgwi0u0sl8mcDas2pCh-1" value="&lt;font size=&quot;3&quot;&gt;для работы нужно запустить обоработчик очереди (&lt;/font&gt;&lt;span style=&quot;background-color: rgb(249 , 250 , 252) ; font-family: &amp;#34;roboto mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; font-style: inherit ; font-weight: inherit ; color: rgb(71 , 86 , 105)&quot;&gt;queue:work&lt;/span&gt;&lt;font size=&quot;3&quot;&gt;)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1713" y="-84" width="461" height="66" as="geometry" />
         </mxCell>
       </root>
