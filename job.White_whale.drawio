@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-05T20:00:21.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="xOWAQb3P1MRVv7RzAF8P" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-05T20:00:37.730Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="KX0-CPMF5cZhtv4T5Fv7" version="15.0.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1262" dy="926" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -175,20 +175,22 @@
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1662" value="Для данного отчета реализовать фильтрацию по дате регистрации и перемещения, фильтрацию по стоимости, а также поиск по полному наименованию, серийному номеру и инвентарному номеру.&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;comic=0;fontFamily=Helvetica;fontSize=14;strokeWidth=2;fillColor=#f8cecc;align=center;verticalAlign=middle;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1281" y="731" width="331" height="91" as="geometry" />
         </mxCell>
-        <mxCell id="dYOBeLBx3Amch_ermyEQ-1667" value="Технические требования" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=0;glass=0;comic=0;fontFamily=Helvetica;fontSize=16;strokeWidth=2;fillColor=#d5e8d4;align=center;verticalAlign=middle;html=0;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="295" y="478" width="347" height="167" as="geometry" />
+        <mxCell id="dYOBeLBx3Amch_ermyEQ-1667" value="Технические требования" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=0;glass=0;comic=0;fontFamily=Helvetica;fontSize=16;strokeWidth=2;fillColor=#0050ef;align=center;verticalAlign=middle;html=0;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1" collapsed="1">
+          <mxGeometry x="295" y="478" width="211" height="26" as="geometry">
+            <mxRectangle x="295" y="478" width="347" height="167" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1668" value="Все запросы должны быть провалидированы" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="dYOBeLBx3Amch_ermyEQ-1667" vertex="1">
-          <mxGeometry y="26" width="347" height="26" as="geometry" />
+          <mxGeometry y="26" width="211" height="26" as="geometry" />
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1669" value="Использовать базу данных MySQL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="dYOBeLBx3Amch_ermyEQ-1667" vertex="1">
-          <mxGeometry y="52" width="347" height="26" as="geometry" />
+          <mxGeometry y="52" width="211" height="26" as="geometry" />
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1670" value="Комментирование кода" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="dYOBeLBx3Amch_ermyEQ-1667" vertex="1">
-          <mxGeometry y="78" width="347" height="26" as="geometry" />
+          <mxGeometry y="78" width="211" height="26" as="geometry" />
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1671" value="Результат задания должен быть выложен на github, к которому должна быть прикреплена инструкция по запуску проекта" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;whiteSpace=wrap;" parent="dYOBeLBx3Amch_ermyEQ-1667" vertex="1">
-          <mxGeometry y="104" width="347" height="63" as="geometry" />
+          <mxGeometry y="104" width="211" height="63" as="geometry" />
         </mxCell>
         <mxCell id="dYOBeLBx3Amch_ermyEQ-1673" value="Усложнения" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=0;glass=0;comic=0;fontFamily=Helvetica;fontSize=16;strokeWidth=2;fillColor=#d5e8d4;align=center;verticalAlign=middle;html=0;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-123" y="260" width="348" height="157" as="geometry" />
