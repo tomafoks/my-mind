@@ -1,14 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2021-12-17T19:30:58.749Z" agent="5.0 (Windows)" etag="6ZilAYJXb2cmg6Vqbc41" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-19T09:08:39.559Z" agent="5.0 (Windows)" etag="nkCJAw0zMNNoF_kNc3NV" version="16.0.0" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="2289" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2289" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="FxktV_c4eBYSRHS2ajvV-1782" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=31;curved=1;" parent="1" source="FxktV_c4eBYSRHS2ajvV-1780" target="FxktV_c4eBYSRHS2ajvV-1781" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2y_l5aydf-omCMA1pxf4-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="2y_l5aydf-omCMA1pxf4-3" target="2y_l5aydf-omCMA1pxf4-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2y_l5aydf-omCMA1pxf4-4" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="FxktV_c4eBYSRHS2ajvV-1780" target="2y_l5aydf-omCMA1pxf4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FxktV_c4eBYSRHS2ajvV-1780" value="&lt;font style=&quot;font-size: 57px;&quot;&gt;c#&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=57;" parent="1" vertex="1">
-          <mxGeometry x="547.5" y="260" width="130" height="130" as="geometry" />
+          <mxGeometry x="547.5" y="310" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FxktV_c4eBYSRHS2ajvV-1784" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=57;" parent="1" source="FxktV_c4eBYSRHS2ajvV-1781" target="FxktV_c4eBYSRHS2ajvV-1783" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -167,6 +173,12 @@
         </mxCell>
         <mxCell id="FxktV_c4eBYSRHS2ajvV-1849" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Полиморфизм&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Переопределение &quot;virtual&quot; метода в классе наследнике методом &quot;override&quot;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="388" y="1012" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2y_l5aydf-omCMA1pxf4-1" value="&lt;div style=&quot;font-size: 27px&quot;&gt;&lt;font style=&quot;font-size: 27px&quot;&gt;Entity Framework Core&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;ORM от microsoft (работа с бд абстрактно)&lt;br style=&quot;font-size: 27px&quot;&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=27;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;gradientColor=none;perimeterSpacing=0;rounded=1;align=center;verticalAlign=top;arcSize=27;" vertex="1" parent="1">
+          <mxGeometry x="437.5" y="20" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2y_l5aydf-omCMA1pxf4-3" value="ASP.net" style="ellipse;whiteSpace=wrap;html=1;fontSize=37;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="533.75" y="130" width="157.5" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
