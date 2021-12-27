@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-27T18:21:42.120Z" agent="5.0 (Windows)" etag="wSuhLI-0UclP-MHT3t_J" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-27T18:22:10.176Z" agent="5.0 (Windows)" etag="2WQhQR7WdmWbOjjDSXIu" version="16.0.0" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="974" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -21,7 +21,7 @@
         <mxCell id="jfvq6fz8J2A9ywaDVkTq-1589" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="jfvq6fz8J2A9ywaDVkTq-1542" target="jfvq6fz8J2A9ywaDVkTq-1588">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jfvq6fz8J2A9ywaDVkTq-1542" value="Система управления проектами и задачами" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontStyle=3;fillColor=#ffcd28;strokeColor=#d79b00;verticalAlign=middle;align=center;gradientColor=#ffa500;" vertex="1" parent="1">
+        <mxCell id="jfvq6fz8J2A9ywaDVkTq-1542" value="Система управления проектами и задачами WRIKE" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontStyle=3;fillColor=#ffcd28;strokeColor=#d79b00;verticalAlign=middle;align=center;gradientColor=#ffa500;" vertex="1" parent="1">
           <mxGeometry x="535" y="380" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="jfvq6fz8J2A9ywaDVkTq-1543" value="&lt;div&gt;регистрация&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;" vertex="1" parent="1">
